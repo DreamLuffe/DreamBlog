@@ -1,0 +1,48 @@
+# example netlify.toml
+[build]
+  command = "git config --global core.quotePath false && git config --global core.precomposeunicode true && hugo --gc --minify --cleanDestinationDir"
+  functions = "netlify/functions"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.101.0"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    cache-control = "max-age=2592000"
+
+[[headers]]
+  for = "*.woff2"
+  [headers.values]
+    cache-control = "max-age=2592000"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    cache-control = "max-age=2592000"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    cache-control = "max-age=2592000"
+    
+[[headers]]
+  for = "*.ico"
+  [headers.values]
+    cache-control = "max-age=2592000"
+        
+[[headers]]
+  for = "*.png"
+  [headers.values]
+    cache-control = "max-age=2592000"
+
+[[headers]]
+  for = "*.jpg"
+  [headers.values]
+    cache-control = "max-age=2592000"
+    
+[[headers]]
+  for = "*.webmanifest"
+  [headers.values]
+    cache-control = "max-age=2592000"
