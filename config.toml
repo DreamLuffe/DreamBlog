@@ -4,7 +4,7 @@ baseURL = "http://example.org/"
 defaultContentLanguage = "zh-cn"
 # 网站语言, 仅在这里 CN 大写 ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "zh-CN"
-# 是否包括中日韩文字
+# 是否包括中日韩文字 
 hasCJKLanguage = true
 
 # 更改使用 Hugo 构建网站时使用的默认主题
