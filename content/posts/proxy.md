@@ -3,8 +3,8 @@ title: "小猫咪全局代理，github提交问题"
 subtitle: ""
 date: 2023-02-20T10:00:32+08:00
 draft: false
-author: ""
-authorLink: ""
+author: "DreamLuffe"
+authorLink: "https://github.com/DreamLuffe"
 authorEmail: ""
 description: ""
 keywords: ""
