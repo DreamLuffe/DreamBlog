@@ -1,5 +1,5 @@
 ---
-title: "零基础搭建hugo博客 windows"
+title: "(全网最详细)Mysql下载安装和配置方法(看了必成功)"
 subtitle: ""
 date: 2023-02-18T10:27:18+08:00
 # draft: true
